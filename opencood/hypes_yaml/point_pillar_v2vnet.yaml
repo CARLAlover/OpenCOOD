@@ -93,10 +93,10 @@ model:
       downsample_rate: 2
       num_iteration: 1
       in_channels: 256
-      gru_flag: false # the origin v2vnet takes several frames for prediction, thus used gru. Here we can turn it off as we use single frame.
+      gru_flag: true # it needs to be turned on for fusion
       agg_operator: "avg" # max or avg
       conv_gru:
-        H: 96
+        H: 100
         W: 352
         num_layers: 1
         kernel_size: [[3,3]]
