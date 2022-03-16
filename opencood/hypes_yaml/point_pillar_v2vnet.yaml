@@ -1,6 +1,6 @@
 name: point_pillar_v2vnet
-root_dir: '/data/opv2v/train'
-validate_dir: '/data/opv2v/validate'
+root_dir: '/home/runshengxu/project/OpenCOOD/opv2v_data_dumping/train'
+validate_dir: '/home/runshengxu/project/OpenCOOD/opv2v_data_dumping/validate'
 
 yaml_parser: "load_point_pillar_params"
 train_params:
